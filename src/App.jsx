@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import HowItWorks from "./components/HowItWorks";
+import TopScanned from "./components/TopScanned";
 import Scan from "./components/Scan";
 import ProtectedRoute from "./components/ProtectedRoute";
 
@@ -16,6 +17,7 @@ function App() {
           element={
             <>
               <Hero />
+              <TopScanned />
               <HowItWorks />
             </>
           }
